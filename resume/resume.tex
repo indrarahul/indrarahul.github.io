@@ -1,0 +1,192 @@
+%-------------------------
+% Resume in Latex
+% Author : Rahul Indra
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Rahul Indra}
+%   & Email : \href{mailto:indrarahul2013@gmail.com}{indrarahul2013@gmail.com}\\
+  &\href{https://indrarahul.codes}{indrarahul.codes} \\
+%   & Mobile : +91-8777526518 \\
+  & 
+  Programming Languages : C, C++, Go, Python
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Engineering Science and Technology}{Shibpur, India}
+      {B.Tech in Computer Science \& Technology;  CGPA: 8.67/10.0 }{July 2016 -- July 2020}
+    \resumeSubheading
+      {Sri Chaitanya Jr. Kalasala}{Hyderabad, India}
+      {Intermediate Education;  Percentage: 96.3}{May 2013 -- May 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {media.net}{Mumbai, India}
+      {Site Reliability Engineer }{ July 2020 - June 2021}
+     \resumeItemListStart
+      \resumeItem {}{Manage large Hadoop, Druid, Kafka and Elastic Stack clusters.}
+ \resumeItem {}{Design and deploy large scale monitoring, logging and alerting systems.}
+ \resumeItem {}{Identify issues and scopes for optimization in the infrastructure.}
+     \resumeItemListEnd
+      
+   \resumeSubheading
+     {CERN (The European Organization for Nuclear Research)}{Geneva, Switzerland}
+      {Google Summer of Code '20 Student Developer}{May 2020 - Aug 2020}
+      \resumeItemListStart
+        \resumeItem {}{Developed an intelligent and reliable monitoring system for large distributed services to monitor their status in order to reduce the operational cost. {\href{https://summerofcode.withgoogle.com/archive/2020/projects/4827645050617856/}{\underline{Link}}}}
+        
+      \resumeItemListEnd
+
+      
+    \resumeSubheading
+      {media.net}{Mumbai, India}
+      {Software Engineering Intern }{Dec 2019 - Jan 2020}
+      \resumeItemListStart
+        \resumeItem {}{Designed extensive disk performance monitoring and alerting pipeline. Built a powerful inference system for identifying anomalous behaviour through predictive modelling and clustering technique for time series data.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Mostly AI}{Vienna, Austria}
+      {Machine Learning Researcher}{June 2019 - July 2019}
+      \resumeItemListStart
+        \resumeItem {}
+          {Solved edge prediction problem using Graph Neural Networks and Graph Convolutional Networks. Generated node embeddings for social graphs using node's features using state of the art in Deep Learning which enhanced the anonymization process of sensitive graphical data.}
+      \resumeItemListEnd
+
+  
+      \resumeSubheading
+      {Xelpmoc Design \& Tech}{Kolkata, India}
+      {Software Engineering Intern}{May 2018 - June 2018}
+      \resumeItemListStart
+      \resumeItem{}{Developed framework for Store Locations prediction for a given business in an urban setup using DBScan Clustering Algorithm and Google Point of Interest API with XPAND Data Analytics team.}
+      \resumeItemListEnd
+     
+\section{Academic Projects}
+      \resumeItemListStart
+        \resumeItem{}
+          {Handwritten text generation from an input data space of handwritten text using augmented Generative Adversarial Networks- InfoGAN, Pix2pix, CycleGAN and Adversarial GAN. Adapting the architectures to suit the application, and comparison among the results obtained.}
+          \resumeItem{}
+          {Organized three Capture the Flag contests named Access Denied for students interested in computer security consisted of Pwning, Reversing, Web \& Cryptography challenges.}
+      \resumeItemListEnd
+      
+\section {Publications}
+      \resumeItemListStart
+      \resumeItem{}
+        {CAPTCHAs vulnerabilities and risk Assessment on Indian government websites using Deep Neural Networks. (Under Transaction Review) }
+      \resumeItemListEnd
+\section{Achievements}
+\resumeItemListStart
+        \resumeItem{}
+        {My team MazeRunner secured 2190th rank out of 10724 participants in Google HashCode 2020 Qualification Round. }
+        \resumeItem{}
+        {Secured 9th position in India in picoCTF 2018 organized by Carnegie Mellon University, USA.}
+        \resumeItem{}
+        {Secured 1st position in Galaxian (Image Processing Robotics Competition) in INSTRUO (IIEST Tech Fest) in 2017.}
+        \resumeItem{}
+        {Founded E-commerce startup in 2017 aimed to fulfill students' daily needs and won B-Plan competitions for the same.}
+        
+      \resumeItemListEnd
+\section{Position of Responsibilities}
+    \resumeItemListStart
+        \resumeItem{}
+        {Ex-General Secretary at CodeIIEST (Computer Science Club of IIEST Shibpur) from May 2018 - July 2019.}
+        \resumeItem{}
+        {Chapter Head of Computer Security at CodeIIEST since 2016. Founded d4rks0c1ety CTF Team. Host weekly Computer Security sessions followed by short CTF contests.}
+        \resumeItem{}
+        {Technical Head of Robodarshan (Robotics Club of IIEST Shibpur) since 2017.}
+        \resumeItem{}
+        {Member in University Table Tennis Team since 2017.}
+      \resumeItemListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeItemListStart
+    \resumeItem{Sentiment Classification : }
+      {IMDB Sentiment Classification using LSTM technique on publicly available IMDB datasets. {\href{https://github.com/indrarahul2013/IMDBSent/blob/master/imdb_lstm.ipynb}{\underline{Link}}}}
+    \resumeItem{Open Source : }
+      {Contributed in NJACK Winter of Code organised by Indian Institute of Technology, Patna.}
+    \resumeItem{\href{https://github.com/indrarahul2013/RooMate}{RooMate : }}
+      {Developed a friendly app system connected with ESP8266 micro-controller for room automation.{\href{https://github.com/indrarahul2013/RooMate}{\underline{Link}}}}
+    \resumeItem{ALEXA : }
+      {Built 8 bit computer capable of arithmetic and logical operations from scratch using basic electronic components.}
+  \resumeItemListEnd
+  
+\end{document}
