@@ -1,4 +1,4 @@
-# indrarahul2013.github.io
+# indrarahul.github.io
 
 > clone this project <br>
-``` git clone https://github.com/indrarahul2013/indrarahul.github.io.git```
+``` git clone https://github.com/indrarahul/indrarahul.github.io.git```
