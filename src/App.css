@@ -1,0 +1,46 @@
+/* Main App Layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* Force full viewport height */
+  overflow: hidden;
+  /* Prevent body scroll, handle internally */
+}
+
+/* Navbar */
+.navbar {
+  flex-shrink: 0;
+  /* Header doesn't shrink */
+  z-index: 100;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+/* Main Content Area */
+main {
+  flex: 1;
+  overflow-y: auto;
+  /* Scrollable content area */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer */
+.footer {
+  flex-shrink: 0;
+  /* Footer doesn't shrink */
+  border-top: 1px solid var(--color-border);
+  padding: var(--spacing-lg) 0;
+  margin-top: auto;
+  /* Push to bottom if content is short */
+  background: var(--color-bg);
+}
+
+/* Ensure container centers content within flexible areas */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}

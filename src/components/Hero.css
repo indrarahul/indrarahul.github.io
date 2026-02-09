@@ -1,0 +1,103 @@
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--spacing-xl) 0;
+}
+
+.hero__split {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+}
+
+@media (min-width: 640px) {
+    .hero__split {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .hero__content {
+        flex: 1;
+        max-width: 60%;
+    }
+
+    .hero__image-wrapper {
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        position: relative;
+        /* For absolute positioning if needed */
+    }
+}
+
+.hero__name {
+    font-size: var(--font-size-4xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+}
+
+.hero__resume-link {
+    display: inline-block;
+    font-size: var(--font-size-sm);
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin-bottom: var(--spacing-lg);
+    letter-spacing: -0.02em;
+}
+
+.hero__text {
+    font-size: var(--font-size-base);
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+}
+
+.hero__text--full {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.hero__social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-md);
+}
+
+.hero__social-link {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    font-weight: 500;
+}
+
+.hero__social-link:hover {
+    color: var(--color-accent);
+}
+
+.hero__social-sep {
+    color: var(--color-text-muted);
+    margin: 0 var(--spacing-xs);
+}
+
+/* Profile Image Styles */
+.hero__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--color-border);
+}
+
+.hero__image-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: var(--color-bg-hover);
+    border: 1px solid var(--color-border);
+}

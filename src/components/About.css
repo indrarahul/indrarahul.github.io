@@ -1,0 +1,10 @@
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.about__content p {
+    font-size: var(--font-size-base);
+    line-height: 1.8;
+}

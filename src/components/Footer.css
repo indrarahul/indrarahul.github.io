@@ -1,0 +1,43 @@
+/* Main App Layout override */
+.footer {
+    margin-top: 0;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.footer__copyright {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+}
+
+.footer__link {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.footer__link:hover {
+    color: var(--color-text);
+}
+
+.footer__sep {
+    color: var(--color-text-muted);
+    margin: 0 var(--spacing-sm);
+}
+
+@media (max-width: 480px) {
+    .footer__content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
