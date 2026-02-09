@@ -3,7 +3,7 @@ export const config = {
     name: "Rahul Indra",
     initials: "ri",
     title: "Engineer",
-    avatar: "public/avatar.jpg", // Place your avatar image in the public directory
+    avatar: "/avatar.jpg", // Place your avatar image in the public directory
     company: {
         name: "Meta",
         url: "https://meta.com"
