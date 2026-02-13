@@ -26,7 +26,7 @@ It also seems plausible that people will create and publish small specialized LL
 
 That raises a set of systems questions I find especially compelling:
 
-- **Do we still need CPUs?** Or does a GPU-first or entirely new architecture make more sense?
+- **Do we still need CPUs?** Or does a GPU-first or entirely new architecture make more sense? Interesting bit to explore here is do we need more probablistic computing (LLMs) and less, precise and quite efficient deterministic computing (legacy code) to help LLMs.
 - **Can we support continuous online training rather than one-shot offline training?** For example, small LLMs solving real-time problems could use continuous RL to adapt their parameters (e.g. surge pricing systems in Uber).
 - **Can agents communicate directly at the level of bits** rather than through heavy abstractions, reducing both overhead and computational costs at multiple layers?
 
@@ -38,4 +38,4 @@ In that world, datacenters might start to resemble a global AI "Hive" — deploy
 
 To me, this feels less like a research curiosity and more like a concrete systems problem spanning runtimes, training loops, deployment, and hardware bias. We're at an inflection point where the tools we use to build software are becoming capable enough to question the very foundations of how software is built.
 
-The question isn't whether AI will change how we write code. It's whether "writing code" is even the right frame anymore.
+The question isn’t if AI will change how we write code. It’s whether writing code will even matter anymore. My bet eventually, humans won’t write code at all, just as we once outgrew low-level programming.
