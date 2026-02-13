@@ -8,7 +8,7 @@ description: Reflections on AI-native software development and why the future mi
 
 Over the last few months, I've been spending a lot of time working with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and intentionally shifting toward a more AI-native way of thinking and building. That process has surfaced a set of questions I can't quite shake.
 
-Claude Code already suggests a future where humans write far less code. But I keep wondering: **why do we need to write code at all?**
+Claude Code already suggests a future where humans write far less code. But I keep wondering: **why do we need to write code at all?** (It might sound too bold as of today, but to me what’s unfolding in AI right now feels a lot like the [Horseless Carriage](https://en.wikipedia.org/wiki/Horseless_carriage) moment; when new technology is still framed in the language of the old.
 
 ## The Legacy of Abstraction
 
